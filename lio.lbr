@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -149,7 +149,7 @@
 <description>&lt;b&gt;MOVEMENT / VIBRATION SWITCH&lt;/b&gt;</description>
 <circle x="0" y="0" radius="2.25" width="0.2032" layer="51"/>
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="-2" drill="0.508" diameter="0.9398"/>
+<pad name="2" x="0" y="-2" drill="0.762" diameter="1.27"/>
 <text x="-3.3892" y="2.2462" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.3892" y="-5.1506" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -273,6 +273,23 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pad name="P$2" x="7.112" y="0" drill="1.016" diameter="1.8796"/>
 <text x="-3.81" y="0" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="RGBLED5050">
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<circle x="-3.027" y="2.934" radius="0.1414" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.1" width="0.127" layer="21"/>
+<smd name="1" x="-2" y="1.7" dx="2" dy="1.1" layer="1"/>
+<smd name="2" x="-2" y="0" dx="2" dy="1.1" layer="1"/>
+<smd name="3" x="-2" y="-1.7" dx="2" dy="1.1" layer="1"/>
+<smd name="4" x="2" y="-1.7" dx="2" dy="1.1" layer="1"/>
+<smd name="5" x="2" y="0" dx="2" dy="1.1" layer="1"/>
+<smd name="6" x="2" y="1.7" dx="2" dy="1.1" layer="1"/>
+<text x="-1.7" y="2.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2" y="-4.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-2.54" y1="1.27" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TP4057">
@@ -336,6 +353,39 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="O" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="RGBLED">
+<wire x1="1.27" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-1.27" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="6.35" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="-3.81" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-3.81" size="1.778" layer="94">Red</text>
+<text x="2.54" y="1.27" size="1.778" layer="94">Grn</text>
+<text x="2.54" y="6.35" size="1.778" layer="94">Blue</text>
+<pin name="BLUE_C" x="5.08" y="5.08" visible="off" length="point" rot="R180"/>
+<pin name="GREEN_C" x="5.08" y="0" visible="off" length="point" rot="R180"/>
+<pin name="GREEN_A" x="-5.08" y="0" visible="off" length="point"/>
+<pin name="RED_C" x="5.08" y="-5.08" visible="off" length="point" rot="R180"/>
+<pin name="BLUE_A" x="-5.08" y="5.08" visible="off" length="point"/>
+<pin name="RED_A" x="-5.08" y="-5.08" visible="off" length="point"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -455,6 +505,27 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <connects>
 <connect gate="G$1" pin="O" pad="P$1"/>
 <connect gate="G$1" pin="P" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RGBLED" prefix="LED">
+<description>For 5050 RGB LEDs, the order of the LEDs may vary from one manufacturer to another!</description>
+<gates>
+<gate name="G$1" symbol="RGBLED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="5050" package="RGBLED5050">
+<connects>
+<connect gate="G$1" pin="BLUE_A" pad="3"/>
+<connect gate="G$1" pin="BLUE_C" pad="4"/>
+<connect gate="G$1" pin="GREEN_A" pad="1"/>
+<connect gate="G$1" pin="GREEN_C" pad="6"/>
+<connect gate="G$1" pin="RED_A" pad="2"/>
+<connect gate="G$1" pin="RED_C" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
