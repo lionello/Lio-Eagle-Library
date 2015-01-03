@@ -148,8 +148,8 @@
 <package name="SW-18015P">
 <description>&lt;b&gt;MOVEMENT / VIBRATION SWITCH&lt;/b&gt;</description>
 <circle x="0" y="0" radius="2.25" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="-2" drill="0.762" diameter="1.27"/>
+<pad name="1" x="0" y="0" drill="1.016"/>
+<pad name="2" x="0" y="-2" drill="0.5"/>
 <text x="-3.3892" y="2.2462" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.3892" y="-5.1506" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -254,8 +254,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <rectangle x1="-2.08" y1="-3.85" x2="-1.73" y2="-2.95" layer="51"/>
 </package>
 <package name="SWITCH-VERTICAL">
-<pad name="2" x="-1.5" y="0" drill="1.4" diameter="2.286"/>
-<pad name="1" x="1.5" y="0" drill="1.4" diameter="2.286"/>
+<pad name="2" x="-1.5" y="0" drill="1.016"/>
+<pad name="1" x="1.5" y="0" drill="1.016"/>
 <text x="-3.175" y="-5.08" size="1.27" layer="48">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.625" width="0.127" layer="21"/>
 <text x="-3.175" y="3.81" size="1.27" layer="48">&gt;NAME</text>
@@ -269,8 +269,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="6.23" y1="0" x2="6.23" y2="-1.825" width="0.127" layer="21"/>
 <wire x1="-6.23" y1="0" x2="-6.45" y2="0" width="0.127" layer="21"/>
 <wire x1="6.23" y1="0" x2="6.45" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="-7.112" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$2" x="7.112" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$1" x="-7.112" y="0" drill="1.016"/>
+<pad name="P$2" x="7.112" y="0" drill="1.016"/>
 <text x="-3.81" y="0" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="RGBLED5050">
