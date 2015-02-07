@@ -595,55 +595,55 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <rectangle x1="-2.625" y1="3" x2="-2.375" y2="3.5" layer="51"/>
 </package>
 <package name="7P-VFBGA">
-<smd name="P$1" x="0" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$2" x="-0.65" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$3" x="-1.3" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$4" x="0.65" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$5" x="1.3" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$6" x="-1.95" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$7" x="1.95" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$8" x="0" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$9" x="-0.65" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$10" x="-1.3" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$11" x="0.65" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$12" x="1.3" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$13" x="-1.95" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$14" x="1.95" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$15" x="0" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$16" x="-0.65" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$17" x="-1.3" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$18" x="0.65" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$19" x="1.3" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$20" x="-1.95" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$21" x="1.95" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$22" x="0" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$23" x="-0.65" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$24" x="-1.3" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$25" x="0.65" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$26" x="1.3" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$27" x="-1.95" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$28" x="1.95" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$36" x="0" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$37" x="-0.65" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$38" x="-1.3" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$39" x="0.65" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$40" x="1.3" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$41" x="-1.95" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$42" x="1.95" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$43" x="0" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$44" x="-0.65" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$45" x="-1.3" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$46" x="0.65" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$47" x="1.3" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$48" x="-1.95" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$49" x="1.95" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$50" x="0" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$51" x="-0.65" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$52" x="-1.3" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$53" x="0.65" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$54" x="1.3" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$55" x="-1.95" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<smd name="P$56" x="1.95" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="D4" x="0" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="D3" x="-0.65" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="D2" x="-1.3" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="D5" x="0.65" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="D6" x="1.3" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="D1" x="-1.95" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="D7" x="1.95" y="0" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="C4" x="0" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="C3" x="-0.65" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="C2" x="-1.3" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="C5" x="0.65" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="C6" x="1.3" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="C1" x="-1.95" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="C7" x="1.95" y="0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="B4" x="0" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="B3" x="-0.65" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="B2" x="-1.3" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="B5" x="0.65" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="B6" x="1.3" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="B1" x="-1.95" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="B7" x="1.95" y="1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="A4" x="0" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="A3" x="-0.65" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="A2" x="-1.3" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="A5" x="0.65" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="A6" x="1.3" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="A1" x="-1.95" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="A7" x="1.95" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="G4" x="0" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="G3" x="-0.65" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="G2" x="-1.3" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="G5" x="0.65" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="G6" x="1.3" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="G1" x="-1.95" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="G7" x="1.95" y="-1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="F4" x="0" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="F3" x="-0.65" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="F2" x="-1.3" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="F5" x="0.65" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="F6" x="1.3" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="F1" x="-1.95" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="F7" x="1.95" y="-1.3" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="E4" x="0" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="E3" x="-0.65" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="E2" x="-1.3" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="E5" x="0.65" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="E6" x="1.3" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="E1" x="-1.95" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
+<smd name="E7" x="1.95" y="-0.65" dx="0.35" dy="0.35" layer="1" roundness="100"/>
 <wire x1="-2.5" y1="2.5" x2="-2" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-2" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
@@ -863,16 +863,16 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pin name="PA1" x="27.94" y="22.86" length="middle" rot="R180"/>
 <pin name="PA0(AREFA)" x="27.94" y="20.32" length="middle" rot="R180"/>
 <pin name="AVCC" x="-25.4" y="22.86" length="middle" direction="pwr"/>
-<pin name="GND3" x="-25.4" y="7.62" visible="pad" length="middle" direction="pwr"/>
-<pin name="VCC2" x="-25.4" y="17.78" visible="pad" length="middle" direction="pwr"/>
+<pin name="GND@A" x="-25.4" y="20.32" length="middle" direction="pwr"/>
+<pin name="VCC@2" x="-25.4" y="15.24" visible="pad" length="middle" direction="pwr"/>
 <pin name="PR0(XT2)" x="-25.4" y="-25.4" length="middle"/>
 <pin name="PR1(XT1)" x="-25.4" y="-20.32" length="middle"/>
-<pin name="VCC1" x="-25.4" y="15.24" visible="pad" length="middle" direction="pwr"/>
-<pin name="VCC" x="-25.4" y="12.7" length="middle" direction="pwr"/>
-<pin name="GND1" x="-25.4" y="2.54" visible="pad" length="middle" direction="pwr"/>
+<pin name="VCC@1" x="-25.4" y="12.7" visible="pad" length="middle" direction="pwr"/>
+<pin name="VCC" x="-25.4" y="10.16" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-25.4" y="2.54" visible="pad" length="middle" direction="pwr"/>
 <pin name="GND" x="-25.4" y="0" length="middle" direction="pwr"/>
 <pin name="PDI_DATA" x="-25.4" y="33.02" length="middle"/>
-<pin name="GND2" x="-25.4" y="5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-25.4" y="5.08" visible="pad" length="middle" direction="pwr"/>
 <pin name="!RESET!/PDI_CLK" x="-25.4" y="38.1" length="middle"/>
 </symbol>
 </symbols>
@@ -1174,9 +1174,9 @@ Created: 27.05.09</description>
 <connect gate="G$1" pin="!RESET!/PDI_CLK" pad="35"/>
 <connect gate="G$1" pin="AVCC" pad="39"/>
 <connect gate="G$1" pin="GND" pad="8"/>
-<connect gate="G$1" pin="GND1" pad="18"/>
-<connect gate="G$1" pin="GND2" pad="30"/>
-<connect gate="G$1" pin="GND3" pad="38"/>
+<connect gate="G$1" pin="GND@1" pad="18"/>
+<connect gate="G$1" pin="GND@2" pad="30"/>
+<connect gate="G$1" pin="GND@A" pad="38"/>
 <connect gate="G$1" pin="PA0(AREFA)" pad="40"/>
 <connect gate="G$1" pin="PA1" pad="41"/>
 <connect gate="G$1" pin="PA2" pad="42"/>
@@ -1213,8 +1213,8 @@ Created: 27.05.09</description>
 <connect gate="G$1" pin="PR0(XT2)" pad="36"/>
 <connect gate="G$1" pin="PR1(XT1)" pad="37"/>
 <connect gate="G$1" pin="VCC" pad="9"/>
-<connect gate="G$1" pin="VCC1" pad="19"/>
-<connect gate="G$1" pin="VCC2" pad="31"/>
+<connect gate="G$1" pin="VCC@1" pad="19"/>
+<connect gate="G$1" pin="VCC@2" pad="31"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1230,9 +1230,9 @@ Created: 27.05.09</description>
 <connect gate="G$1" pin="!RESET!/PDI_CLK" pad="35"/>
 <connect gate="G$1" pin="AVCC" pad="39"/>
 <connect gate="G$1" pin="GND" pad="8"/>
-<connect gate="G$1" pin="GND1" pad="18"/>
-<connect gate="G$1" pin="GND2" pad="30"/>
-<connect gate="G$1" pin="GND3" pad="38"/>
+<connect gate="G$1" pin="GND@1" pad="18"/>
+<connect gate="G$1" pin="GND@2" pad="30"/>
+<connect gate="G$1" pin="GND@A" pad="38"/>
 <connect gate="G$1" pin="PA0(AREFA)" pad="40"/>
 <connect gate="G$1" pin="PA1" pad="41"/>
 <connect gate="G$1" pin="PA2" pad="42"/>
@@ -1269,8 +1269,8 @@ Created: 27.05.09</description>
 <connect gate="G$1" pin="PR0(XT2)" pad="36"/>
 <connect gate="G$1" pin="PR1(XT1)" pad="37"/>
 <connect gate="G$1" pin="VCC" pad="9"/>
-<connect gate="G$1" pin="VCC1" pad="19"/>
-<connect gate="G$1" pin="VCC2" pad="31"/>
+<connect gate="G$1" pin="VCC@1" pad="19"/>
+<connect gate="G$1" pin="VCC@2" pad="31"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1282,6 +1282,52 @@ Created: 27.05.09</description>
 </technologies>
 </device>
 <device name="" package="7P-VFBGA">
+<connects>
+<connect gate="G$1" pin="!RESET!/PDI_CLK" pad="B5"/>
+<connect gate="G$1" pin="AVCC" pad="A2"/>
+<connect gate="G$1" pin="GND" pad="A3 D5 E1 E2 E4 G5"/>
+<connect gate="G$1" pin="GND@1" pad="B4"/>
+<connect gate="G$1" pin="GND@2" pad="C5"/>
+<connect gate="G$1" pin="GND@A" pad="C7"/>
+<connect gate="G$1" pin="PA0(AREFA)" pad="B3"/>
+<connect gate="G$1" pin="PA1" pad="B2"/>
+<connect gate="G$1" pin="PA2" pad="C2"/>
+<connect gate="G$1" pin="PA3" pad="A1"/>
+<connect gate="G$1" pin="PA4" pad="B1"/>
+<connect gate="G$1" pin="PA5" pad="C1"/>
+<connect gate="G$1" pin="PA6" pad="C3"/>
+<connect gate="G$1" pin="PA7" pad="C4"/>
+<connect gate="G$1" pin="PB0(AREFB)" pad="D4"/>
+<connect gate="G$1" pin="PB1" pad="D1"/>
+<connect gate="G$1" pin="PB2" pad="D2"/>
+<connect gate="G$1" pin="PB3" pad="D3"/>
+<connect gate="G$1" pin="PC0(SDA)" pad="F2"/>
+<connect gate="G$1" pin="PC1(SCL)" pad="G1"/>
+<connect gate="G$1" pin="PC2" pad="G2"/>
+<connect gate="G$1" pin="PC3" pad="E3"/>
+<connect gate="G$1" pin="PC4" pad="F3"/>
+<connect gate="G$1" pin="PC5(MOSI)" pad="G3"/>
+<connect gate="G$1" pin="PC6(MISO)" pad="F4"/>
+<connect gate="G$1" pin="PC7(SCK)" pad="G4"/>
+<connect gate="G$1" pin="PD0" pad="F5"/>
+<connect gate="G$1" pin="PD1" pad="F6"/>
+<connect gate="G$1" pin="PD2" pad="G7"/>
+<connect gate="G$1" pin="PD3" pad="F7"/>
+<connect gate="G$1" pin="PD4" pad="E5"/>
+<connect gate="G$1" pin="PD5(MOSI)" pad="E6"/>
+<connect gate="G$1" pin="PD6(D-/MISO)" pad="E7"/>
+<connect gate="G$1" pin="PD7(D+/SCK)" pad="D6"/>
+<connect gate="G$1" pin="PDI_DATA" pad="A6"/>
+<connect gate="G$1" pin="PE0(SDA)" pad="D7"/>
+<connect gate="G$1" pin="PE1(SCL)" pad="C6"/>
+<connect gate="G$1" pin="PE2" pad="B6"/>
+<connect gate="G$1" pin="PE3" pad="A7"/>
+<connect gate="G$1" pin="PR0(XT2)" pad="A5"/>
+<connect gate="G$1" pin="PR1(XT1)" pad="A4"/>
+<connect gate="G$1" pin="VCC" pad="B7"/>
+<connect gate="G$1" pin="VCC@1" pad="F1"/>
+<connect gate="G$1" pin="VCC@2" pad="G6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
