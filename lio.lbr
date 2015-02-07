@@ -652,6 +652,43 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="-2.5" y1="2" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
 <circle x="-2.1" y="2.1" radius="0.14141875" width="0.127" layer="21"/>
 </package>
+<package name="SOP28">
+<smd name="1" x="0" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="2" x="1.27" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="3" x="2.54" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="4" x="3.81" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="5" x="5.08" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="6" x="6.35" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="7" x="7.62" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="8" x="8.89" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="9" x="10.16" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="10" x="11.43" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="11" x="12.7" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="12" x="13.97" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="13" x="15.24" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="14" x="16.51" y="-4.685" dx="0.5" dy="1.27" layer="1" rot="R180"/>
+<smd name="15" x="16.51" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="16" x="15.24" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="17" x="13.97" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="18" x="12.7" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="19" x="11.43" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="20" x="10.16" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="21" x="8.89" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="22" x="7.62" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="23" x="6.35" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="24" x="5.08" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="25" x="3.81" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="26" x="2.54" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="27" x="1.27" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<smd name="28" x="0" y="4.685" dx="0.5" dy="1.27" layer="1"/>
+<wire x1="-0.7874" y1="3.81" x2="17.3226" y2="3.81" width="0.127" layer="21"/>
+<wire x1="17.3226" y1="3.81" x2="17.3226" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="17.3226" y1="-3.81" x2="-0.7874" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-0.7874" y1="-3.81" x2="-0.7874" y2="3.81" width="0.127" layer="21"/>
+<circle x="-0.1" y="-2.8" radius="0.316225" width="0.127" layer="21"/>
+<text x="-0.2" y="5.7" size="1.27" layer="21">&gt;NAME</text>
+<text x="0.7" y="-0.5" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TP4057">
@@ -874,6 +911,42 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <pin name="PDI_DATA" x="-25.4" y="33.02" length="middle"/>
 <pin name="GND@2" x="-25.4" y="5.08" visible="pad" length="middle" direction="pwr"/>
 <pin name="!RESET!/PDI_CLK" x="-25.4" y="38.1" length="middle"/>
+</symbol>
+<symbol name="HT16K33">
+<description>&lt;h1&gt;HT16K33&lt;/h1&gt;
+RAM Mapping 16*8 LED Controller Driver with keyscan</description>
+<pin name="ROW0" x="0" y="25.4" length="middle" rot="R180"/>
+<pin name="ROW1" x="0" y="22.86" length="middle" rot="R180"/>
+<pin name="ROW2" x="0" y="20.32" length="middle" rot="R180"/>
+<pin name="ROW3" x="0" y="17.78" length="middle" rot="R180"/>
+<pin name="ROW4" x="0" y="15.24" length="middle" rot="R180"/>
+<pin name="ROW5" x="0" y="12.7" length="middle" rot="R180"/>
+<pin name="ROW6" x="0" y="10.16" length="middle" rot="R180"/>
+<pin name="ROW7" x="0" y="7.62" length="middle" rot="R180"/>
+<pin name="ROW8" x="0" y="5.08" length="middle" rot="R180"/>
+<pin name="ROW9" x="0" y="2.54" length="middle" rot="R180"/>
+<pin name="ROW10" x="0" y="0" length="middle" rot="R180"/>
+<pin name="ROW11" x="0" y="-2.54" length="middle" rot="R180"/>
+<pin name="ROW12" x="0" y="-5.08" length="middle" rot="R180"/>
+<pin name="ROW13" x="0" y="-7.62" length="middle" rot="R180"/>
+<pin name="ROW14" x="0" y="-10.16" length="middle" rot="R180"/>
+<pin name="ROW15" x="0" y="-12.7" length="middle" rot="R180"/>
+<pin name="COM0" x="-30.48" y="-5.08" length="middle" direction="out"/>
+<pin name="COM1" x="-30.48" y="-2.54" length="middle" direction="out"/>
+<pin name="COM2" x="-30.48" y="0" length="middle" direction="out"/>
+<pin name="COM3" x="-30.48" y="2.54" length="middle" direction="out"/>
+<pin name="COM4" x="-30.48" y="5.08" length="middle" direction="out"/>
+<pin name="COM5" x="-30.48" y="7.62" length="middle" direction="out"/>
+<pin name="COM6" x="-30.48" y="10.16" length="middle" direction="out"/>
+<pin name="COM7" x="-30.48" y="12.7" length="middle" direction="out"/>
+<pin name="SCL" x="-30.48" y="17.78" length="middle" direction="in"/>
+<pin name="SDA" x="-30.48" y="20.32" length="middle"/>
+<pin name="VCC" x="-17.78" y="33.02" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-17.78" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-25.4" y1="27.94" x2="-5.08" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="27.94" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="-25.4" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-15.24" x2="-25.4" y2="27.94" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1327,6 +1400,48 @@ Created: 27.05.09</description>
 <connect gate="G$1" pin="VCC" pad="B7"/>
 <connect gate="G$1" pin="VCC@1" pad="F1"/>
 <connect gate="G$1" pin="VCC@2" pad="G6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HT16K33">
+<gates>
+<gate name="G$1" symbol="HT16K33" x="15.24" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SOP28">
+<connects>
+<connect gate="G$1" pin="COM0" pad="2"/>
+<connect gate="G$1" pin="COM1" pad="3"/>
+<connect gate="G$1" pin="COM2" pad="4"/>
+<connect gate="G$1" pin="COM3" pad="5"/>
+<connect gate="G$1" pin="COM4" pad="6"/>
+<connect gate="G$1" pin="COM5" pad="7"/>
+<connect gate="G$1" pin="COM6" pad="8"/>
+<connect gate="G$1" pin="COM7" pad="9"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="ROW0" pad="25"/>
+<connect gate="G$1" pin="ROW1" pad="24"/>
+<connect gate="G$1" pin="ROW10" pad="15"/>
+<connect gate="G$1" pin="ROW11" pad="14"/>
+<connect gate="G$1" pin="ROW12" pad="13"/>
+<connect gate="G$1" pin="ROW13" pad="12"/>
+<connect gate="G$1" pin="ROW14" pad="11"/>
+<connect gate="G$1" pin="ROW15" pad="10"/>
+<connect gate="G$1" pin="ROW2" pad="23"/>
+<connect gate="G$1" pin="ROW3" pad="22"/>
+<connect gate="G$1" pin="ROW4" pad="21"/>
+<connect gate="G$1" pin="ROW5" pad="20"/>
+<connect gate="G$1" pin="ROW6" pad="19"/>
+<connect gate="G$1" pin="ROW7" pad="18"/>
+<connect gate="G$1" pin="ROW8" pad="17"/>
+<connect gate="G$1" pin="ROW9" pad="16"/>
+<connect gate="G$1" pin="SCL" pad="26"/>
+<connect gate="G$1" pin="SDA" pad="27"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
 </connects>
 <technologies>
 <technology name=""/>
