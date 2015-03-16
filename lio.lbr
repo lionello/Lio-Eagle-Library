@@ -689,6 +689,29 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <text x="-0.2" y="5.7" size="1.27" layer="21">&gt;NAME</text>
 <text x="0.7" y="-0.5" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="PTR5528">
+<wire x1="-5.715" y1="4.572" x2="5.715" y2="4.572" width="0.127" layer="21"/>
+<wire x1="5.715" y1="4.572" x2="5.715" y2="-4.699" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-4.699" x2="-5.715" y2="-4.699" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-4.699" x2="-5.715" y2="4.572" width="0.127" layer="21"/>
+<smd name="P0.08" x="-5.334" y="-4.064" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P0.05" x="-2.54" y="-4.318" dx="1.6764" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P0.03" x="-1.27" y="-4.318" dx="1.6764" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P0.02" x="0" y="-4.318" dx="1.6764" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P0.00" x="1.27" y="-4.318" dx="1.6764" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P0.27" x="2.54" y="-4.318" dx="1.6764" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P0.09" x="-5.334" y="-2.794" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="SWDIO" x="-5.334" y="-1.524" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="SDWCLK" x="-5.334" y="-0.254" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P0.18" x="-5.334" y="1.016" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P0.26" x="5.334" y="-4.064" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P0.24" x="5.334" y="-2.794" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="P0.21" x="5.334" y="-1.524" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="VCC" x="5.334" y="-0.254" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="GND" x="5.334" y="1.016" dx="1.6764" dy="0.8128" layer="1"/>
+<smd name="ANT" x="-0.381" y="4.572" dx="0.8128" dy="0.8128" layer="1" rot="R90"/>
+<text x="-5.08" y="2.032" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TP4057">
@@ -980,6 +1003,29 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <pin name="GREEN" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
 <pin name="VCC" x="-10.16" y="0" visible="off" length="middle"/>
 <pin name="RED" x="7.62" y="-5.08" visible="off" length="middle" rot="R180"/>
+</symbol>
+<symbol name="PTR5528">
+<wire x1="-20.32" y1="20.32" x2="22.86" y2="20.32" width="0.254" layer="94"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-17.78" x2="-20.32" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-17.78" x2="-20.32" y2="20.32" width="0.254" layer="94"/>
+<pin name="ANT" x="0" y="25.4" length="middle" rot="R270"/>
+<pin name="GND" x="27.94" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="27.94" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="P0.21" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="P0.24" x="27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="P0.26" x="27.94" y="-10.16" length="middle" rot="R180"/>
+<pin name="P0.18" x="-25.4" y="10.16" length="middle"/>
+<pin name="SDWCLK" x="-25.4" y="5.08" length="middle"/>
+<pin name="SWDIO" x="-25.4" y="0" length="middle"/>
+<pin name="P0.09" x="-25.4" y="-5.08" length="middle"/>
+<pin name="P0.08" x="-25.4" y="-10.16" length="middle"/>
+<pin name="P0.02" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="P0.00" x="5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="P0.03" x="-5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="P0.05" x="-10.16" y="-22.86" length="middle" rot="R90"/>
+<pin name="P0.27" x="10.16" y="-22.86" length="middle" rot="R90"/>
+<text x="-5.08" y="0" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1490,6 +1536,36 @@ Created: 27.05.09</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTR5528">
+<gates>
+<gate name="G$1" symbol="PTR5528" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PTR5528">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="P0.00" pad="P0.00"/>
+<connect gate="G$1" pin="P0.02" pad="P0.02"/>
+<connect gate="G$1" pin="P0.03" pad="P0.03"/>
+<connect gate="G$1" pin="P0.05" pad="P0.05"/>
+<connect gate="G$1" pin="P0.08" pad="P0.08"/>
+<connect gate="G$1" pin="P0.09" pad="P0.09"/>
+<connect gate="G$1" pin="P0.18" pad="P0.18"/>
+<connect gate="G$1" pin="P0.21" pad="P0.21"/>
+<connect gate="G$1" pin="P0.24" pad="P0.24"/>
+<connect gate="G$1" pin="P0.26" pad="P0.26"/>
+<connect gate="G$1" pin="P0.27" pad="P0.27"/>
+<connect gate="G$1" pin="SDWCLK" pad="SDWCLK"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
