@@ -9,3 +9,4 @@ Lio's Eagle Library
 * nRF51822 Nordic Semiconductor Bluetooth SOC (WLCSP)
 * HT16K33 Holtek RAM Mapping 16*8 LED Controller Driver with keyscan (SOP28)
 * PTR5528 XunTong Technology nRF51822 module
+* ESP8266 AI-Thinker Wi-Fi module (ESP-07, 08, 10, and 12)

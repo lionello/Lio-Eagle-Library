@@ -712,6 +712,106 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <smd name="ANT" x="-0.381" y="4.572" dx="0.8128" dy="0.8128" layer="1" rot="R90"/>
 <text x="-5.08" y="2.032" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="ESP-12">
+<wire x1="-12" y1="8" x2="-6.2" y2="8" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="8" x2="12" y2="8" width="0.127" layer="21"/>
+<wire x1="12" y1="8" x2="12" y2="-8" width="0.127" layer="21"/>
+<wire x1="12" y1="-8" x2="-6.2" y2="-8" width="0.127" layer="21"/>
+<smd name="GND" x="10.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO15" x="8.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO2" x="6.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO0" x="4.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO5" x="2.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO4" x="0.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="RXD" x="-1.6" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="TXD" x="-3.6" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="REST" x="-3.6" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="ADC" x="-1.6" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="CH_PD" x="0.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO16" x="2.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO14" x="4.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO12" x="6.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO13" x="8.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="VCC" x="10.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<wire x1="-6.2" y1="-8" x2="-12" y2="-8" width="0.127" layer="21"/>
+<wire x1="-12" y1="8" x2="-12" y2="-8" width="0.127" layer="21"/>
+<text x="-1.3" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-6.2" y1="-8" x2="-6.2" y2="8" width="0.127" layer="21"/>
+<wire x1="-6" y1="-7" x2="-7" y2="-7" width="0.4064" layer="21"/>
+<wire x1="-7" y1="-7" x2="-11" y2="-7" width="0.4064" layer="21"/>
+<wire x1="-11" y1="-7" x2="-11" y2="-6" width="0.4064" layer="21"/>
+<wire x1="-11" y1="-6" x2="-8" y2="-6" width="0.4064" layer="21"/>
+<wire x1="-8" y1="-6" x2="-8" y2="-5" width="0.4064" layer="21"/>
+<wire x1="-8" y1="-5" x2="-11" y2="-5" width="0.4064" layer="21"/>
+<wire x1="-11" y1="-5" x2="-11" y2="-4" width="0.4064" layer="21"/>
+<wire x1="-11" y1="-4" x2="-8" y2="-4" width="0.4064" layer="21"/>
+<wire x1="-8" y1="-4" x2="-8" y2="-3" width="0.4064" layer="21"/>
+<wire x1="-8" y1="-3" x2="-11" y2="-3" width="0.4064" layer="21"/>
+<wire x1="-11" y1="-3" x2="-11" y2="-2" width="0.4064" layer="21"/>
+<wire x1="-11" y1="-2" x2="-8" y2="-2" width="0.4064" layer="21"/>
+<wire x1="-8" y1="-2" x2="-8" y2="-1" width="0.4064" layer="21"/>
+<wire x1="-8" y1="-1" x2="-11" y2="-1" width="0.4064" layer="21"/>
+<wire x1="-11" y1="-1" x2="-11" y2="7" width="0.4064" layer="21"/>
+<wire x1="-7" y1="-7" x2="-7" y2="0" width="0.4064" layer="21"/>
+</package>
+<package name="ESP-10">
+<wire x1="-7.1" y1="5" x2="7.1" y2="5" width="0.127" layer="21"/>
+<wire x1="7.1" y1="5" x2="7.1" y2="-5" width="0.127" layer="21"/>
+<wire x1="7.1" y1="-5" x2="-7.1" y2="-5" width="0.127" layer="21"/>
+<wire x1="-7.1" y1="-5" x2="-7.1" y2="5" width="0.127" layer="21"/>
+<smd name="RST" x="7.1" y="4" dx="2" dy="1" layer="1"/>
+<smd name="VCC3V3" x="7.1" y="2" dx="2" dy="1" layer="1"/>
+<smd name="UTXD" x="7.1" y="0" dx="2" dy="1" layer="1"/>
+<smd name="URXD" x="7.1" y="-2" dx="2" dy="1" layer="1"/>
+<smd name="GND" x="7.1" y="-4" dx="2" dy="1" layer="1"/>
+<text x="-3.7" y="1.2" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="ESP-08">
+<wire x1="-5.4" y1="8.1" x2="12.2" y2="8.1" width="0.127" layer="21"/>
+<wire x1="12.2" y1="8.1" x2="12.2" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="12.2" y1="-8.1" x2="-5.4" y2="-8.1" width="0.127" layer="21"/>
+<smd name="GND" x="10.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO15" x="8.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO2" x="6.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO0" x="4.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO5" x="2.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO4" x="0.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="RXD" x="-1.6" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="TXD" x="-3.6" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="REST" x="-3.6" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="ADC" x="-1.6" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="CH_PD" x="0.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO16" x="2.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO14" x="4.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO12" x="6.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO13" x="8.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="VCC" x="10.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<wire x1="-5.4" y1="8.1" x2="-5.4" y2="-8.1" width="0.127" layer="21"/>
+<text x="-1.3" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="ESP-07">
+<wire x1="-10" y1="8" x2="12" y2="8" width="0.127" layer="21"/>
+<wire x1="12" y1="8" x2="12" y2="-8" width="0.127" layer="21"/>
+<wire x1="12" y1="-8" x2="-10" y2="-8" width="0.127" layer="21"/>
+<smd name="GND" x="10.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO15" x="8.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO2" x="6.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO0" x="4.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO5" x="2.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO4" x="0.4" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="RXD" x="-1.6" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="TXD" x="-3.6" y="8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="REST" x="-3.6" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="ADC" x="-1.6" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="CH_PD" x="0.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO16" x="2.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO14" x="4.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO12" x="6.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GPIO13" x="8.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="VCC" x="10.4" y="-8" dx="2" dy="1" layer="1" rot="R90"/>
+<wire x1="-10" y1="8" x2="-10" y2="-8" width="0.127" layer="21"/>
+<text x="-1.3" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TP4057">
@@ -1026,6 +1126,29 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <pin name="P0.05" x="-10.16" y="-22.86" length="middle" rot="R90"/>
 <pin name="P0.27" x="10.16" y="-22.86" length="middle" rot="R90"/>
 <text x="-5.08" y="0" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="ESP8266">
+<wire x1="-15.24" y1="30.48" x2="20.32" y2="30.48" width="0.254" layer="94"/>
+<wire x1="20.32" y1="30.48" x2="20.32" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
+<pin name="REST" x="-20.32" y="25.4" length="middle"/>
+<pin name="ADC" x="-20.32" y="20.32" length="middle"/>
+<pin name="CH_PD" x="-20.32" y="15.24" length="middle"/>
+<pin name="GPIO16" x="-20.32" y="10.16" length="middle"/>
+<pin name="GPIO14" x="-20.32" y="5.08" length="middle"/>
+<pin name="GPIO12" x="-20.32" y="0" length="middle"/>
+<pin name="GPIO13" x="-20.32" y="-5.08" length="middle"/>
+<pin name="VCC" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GND" x="25.4" y="-10.16" length="middle" direction="sup" rot="R180"/>
+<pin name="GPIO15" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO2" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="GPIO0" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO5" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="GPIO4" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="RXD" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="TXD" x="25.4" y="25.4" length="middle" rot="R180"/>
+<text x="-7.62" y="27.94" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1564,6 +1687,82 @@ Created: 27.05.09</description>
 <connect gate="G$1" pin="P0.27" pad="P0.27"/>
 <connect gate="G$1" pin="SDWCLK" pad="SDWCLK"/>
 <connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP8266">
+<gates>
+<gate name="G$1" symbol="ESP8266" x="-2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="-12" package="ESP-12">
+<connects>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="REST" pad="REST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-07" package="ESP-07">
+<connects>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="REST" pad="REST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-08" package="ESP-08">
+<connects>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="REST" pad="REST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
