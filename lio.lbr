@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1303,7 +1303,7 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <wire x1="-7.62" y1="-38.1" x2="-7.62" y2="40.64" width="0.254" layer="94"/>
 <text x="10.16" y="-38.1" size="2.54" layer="95" font="vector" rot="R90">&gt;NAME</text>
 <text x="10.16" y="25.4" size="2.54" layer="96" font="vector" rot="R90">&gt;VALUE</text>
-<pin name="1" x="-10.16" y="38.1" length="short" direction="nc"/>
+<pin name="GND@1" x="-10.16" y="38.1" length="short" direction="nc"/>
 <pin name="VCC" x="-10.16" y="35.56" length="short" direction="pwr"/>
 <pin name="VCOMH" x="-10.16" y="33.02" length="short" direction="pwr"/>
 <pin name="VDDIO" x="-10.16" y="30.48" length="short" direction="pwr"/>
@@ -1315,24 +1315,24 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <pin name="D4" x="-10.16" y="15.24" length="short"/>
 <pin name="D3" x="-10.16" y="12.7" length="short"/>
 <pin name="D2" x="-10.16" y="10.16" length="short" direction="in"/>
-<pin name="D1" x="-10.16" y="7.62" length="short"/>
-<pin name="D0,MOSI" x="-10.16" y="5.08" length="short"/>
-<pin name="E/RD#" x="-10.16" y="2.54" length="short"/>
-<pin name="R/W#,SCLK" x="-10.16" y="0" length="short"/>
+<pin name="D1,MOSI" x="-10.16" y="7.62" length="short"/>
+<pin name="D0,SCLK" x="-10.16" y="5.08" length="short"/>
+<pin name="E,!RD" x="-10.16" y="2.54" length="short"/>
+<pin name="R,!W" x="-10.16" y="0" length="short"/>
 <pin name="BS0" x="-10.16" y="-2.54" length="short"/>
 <pin name="BS1" x="-10.16" y="-5.08" length="short"/>
-<pin name="CS#" x="-10.16" y="-7.62" length="short"/>
-<pin name="D/C#" x="-10.16" y="-10.16" length="short"/>
-<pin name="RES#" x="-10.16" y="-12.7" length="short"/>
+<pin name="!CS" x="-10.16" y="-7.62" length="short"/>
+<pin name="D,!C" x="-10.16" y="-10.16" length="short"/>
+<pin name="!RES" x="-10.16" y="-12.7" length="short"/>
 <pin name="IREF" x="-10.16" y="-15.24" length="short"/>
 <pin name="GPIO1" x="-10.16" y="-17.78" length="short"/>
 <pin name="GPIO0" x="-10.16" y="-20.32" length="short" direction="nc"/>
 <pin name="25" x="-10.16" y="-22.86" length="short" direction="nc"/>
 <pin name="VDD" x="-10.16" y="-25.4" length="short" direction="pwr"/>
 <pin name="VCI" x="-10.16" y="-27.94" length="short" direction="pwr"/>
-<pin name="GND" x="-10.16" y="-30.48" length="short"/>
+<pin name="GND" x="-10.16" y="-30.48" length="short" direction="pwr"/>
 <pin name="29" x="-10.16" y="-33.02" length="short" direction="nc"/>
-<pin name="30" x="-10.16" y="-35.56" length="short" direction="nc"/>
+<pin name="GND@30" x="-10.16" y="-35.56" length="short" direction="nc"/>
 </symbol>
 <symbol name="ESP8266-10">
 <wire x1="-17.78" y1="10.16" x2="17.78" y2="10.16" width="0.254" layer="94"/>
@@ -2042,30 +2042,30 @@ Created: 27.05.09</description>
 <devices>
 <device name="" package="1X30-0.5MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="!CS" pad="19"/>
+<connect gate="G$1" pin="!RES" pad="21"/>
 <connect gate="G$1" pin="25" pad="25"/>
 <connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="30" pad="30"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="BS0" pad="17"/>
 <connect gate="G$1" pin="BS1" pad="18"/>
-<connect gate="G$1" pin="CS#" pad="19"/>
-<connect gate="G$1" pin="D/C#" pad="20"/>
-<connect gate="G$1" pin="D0,MOSI" pad="14"/>
-<connect gate="G$1" pin="D1" pad="13"/>
+<connect gate="G$1" pin="D,!C" pad="20"/>
+<connect gate="G$1" pin="D0,SCLK" pad="14"/>
+<connect gate="G$1" pin="D1,MOSI" pad="13"/>
 <connect gate="G$1" pin="D2" pad="12"/>
 <connect gate="G$1" pin="D3" pad="11"/>
 <connect gate="G$1" pin="D4" pad="10"/>
 <connect gate="G$1" pin="D5" pad="9"/>
 <connect gate="G$1" pin="D6" pad="8"/>
 <connect gate="G$1" pin="D7" pad="7"/>
-<connect gate="G$1" pin="E/RD#" pad="15"/>
+<connect gate="G$1" pin="E,!RD" pad="15"/>
 <connect gate="G$1" pin="GND" pad="28"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@30" pad="30"/>
 <connect gate="G$1" pin="GPIO0" pad="24"/>
 <connect gate="G$1" pin="GPIO1" pad="23"/>
 <connect gate="G$1" pin="IREF" pad="22"/>
-<connect gate="G$1" pin="R/W#,SCLK" pad="16"/>
-<connect gate="G$1" pin="RES#" pad="21"/>
+<connect gate="G$1" pin="R,!W" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$1" pin="VCI" pad="27"/>
 <connect gate="G$1" pin="VCOMH" pad="3"/>
