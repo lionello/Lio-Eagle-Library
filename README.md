@@ -11,3 +11,4 @@ Lio's Eagle Library
 * PTR5528 XunTong Technology nRF51822 module
 * ESP8266 AI-Thinker Wi-Fi module (ESP-07, 08, 10, and 12)
 * TLV702xx TI 300-mA, Low-IQ, Low-Dropout Regulator (SOT23-5)
+* M00792 Visionox 96x96 RGB OLED screen (LD7134 driver, 34-pin 0.7 pitch FPC)
