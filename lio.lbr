@@ -1307,26 +1307,26 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <pin name="VCC" x="-10.16" y="35.56" length="short" direction="pwr"/>
 <pin name="VCOMH" x="-10.16" y="33.02" length="short" direction="pwr"/>
 <pin name="VDDIO" x="-10.16" y="30.48" length="short" direction="pwr"/>
-<pin name="VSL" x="-10.16" y="27.94" length="short"/>
+<pin name="VSL" x="-10.16" y="27.94" length="short" direction="pwr"/>
 <pin name="6" x="-10.16" y="25.4" length="short" direction="nc"/>
 <pin name="D7" x="-10.16" y="22.86" length="short"/>
 <pin name="D6" x="-10.16" y="20.32" length="short"/>
-<pin name="D5" x="-10.16" y="17.78" length="short" direction="in"/>
+<pin name="D5" x="-10.16" y="17.78" length="short"/>
 <pin name="D4" x="-10.16" y="15.24" length="short"/>
 <pin name="D3" x="-10.16" y="12.7" length="short"/>
-<pin name="D2" x="-10.16" y="10.16" length="short" direction="in"/>
+<pin name="D2" x="-10.16" y="10.16" length="short"/>
 <pin name="D1,MOSI" x="-10.16" y="7.62" length="short"/>
 <pin name="D0,SCLK" x="-10.16" y="5.08" length="short"/>
-<pin name="E,!RD" x="-10.16" y="2.54" length="short"/>
-<pin name="R,!W" x="-10.16" y="0" length="short"/>
-<pin name="BS0" x="-10.16" y="-2.54" length="short"/>
-<pin name="BS1" x="-10.16" y="-5.08" length="short"/>
-<pin name="!CS" x="-10.16" y="-7.62" length="short"/>
-<pin name="D,!C" x="-10.16" y="-10.16" length="short"/>
-<pin name="!RES" x="-10.16" y="-12.7" length="short"/>
-<pin name="IREF" x="-10.16" y="-15.24" length="short"/>
+<pin name="E,!RD" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="R,!W" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="BS0" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="BS1" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="!CS" x="-10.16" y="-7.62" length="short" direction="in"/>
+<pin name="D,!C" x="-10.16" y="-10.16" length="short" direction="in"/>
+<pin name="!RES" x="-10.16" y="-12.7" length="short" direction="in"/>
+<pin name="IREF" x="-10.16" y="-15.24" length="short" direction="in"/>
 <pin name="GPIO1" x="-10.16" y="-17.78" length="short"/>
-<pin name="GPIO0" x="-10.16" y="-20.32" length="short" direction="nc"/>
+<pin name="GPIO0" x="-10.16" y="-20.32" length="short"/>
 <pin name="25" x="-10.16" y="-22.86" length="short" direction="nc"/>
 <pin name="VDD" x="-10.16" y="-25.4" length="short" direction="pwr"/>
 <pin name="VCI" x="-10.16" y="-27.94" length="short" direction="pwr"/>
