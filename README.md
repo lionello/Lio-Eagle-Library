@@ -13,3 +13,5 @@ Lio's Eagle Library
 * TLV702xx TI 300-mA, Low-IQ, Low-Dropout Regulator (SOT23-5)
 * M00792 Visionox 96x96 RGB OLED screen (LD7134 driver, 34-pin 0.7 pitch FPC)
 * M00XXX ??? 128x128 RGB OLED screen (SSD1351 driver, 30-pin 0.5 pitch FPC)
+* NRF51-01 40-pin nRF51822 module
+* USB-TYPE-C Hybrid USB Type-C connector
