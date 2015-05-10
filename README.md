@@ -16,3 +16,4 @@ Lio's Eagle Library
 * NRF51-01 40-pin nRF51822 module
 * USB-TYPE-C Hybrid USB Type-C connector
 * 1X10 10-pin connector (0.5 pitch FPC a.o.)
+* JST_2PIN 2-pin JST connector (1.27mm variant)
