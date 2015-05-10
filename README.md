@@ -15,3 +15,4 @@ Lio's Eagle Library
 * M00XXX ??? 128x128 RGB OLED screen (SSD1351 driver, 30-pin 0.5 pitch FPC)
 * NRF51-01 40-pin nRF51822 module
 * USB-TYPE-C Hybrid USB Type-C connector
+* 1X10 10-pin connector (0.5 pitch FPC a.o.)
