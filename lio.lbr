@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1806,19 +1806,19 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <pin name="ANT" x="0" y="25.4" length="middle" rot="R270"/>
 <pin name="GND" x="27.94" y="10.16" length="middle" direction="pwr" rot="R180"/>
 <pin name="VCC" x="27.94" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="P0.21" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="P0.24" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="P0.26" x="27.94" y="-10.16" length="middle" rot="R180"/>
-<pin name="P0.18" x="-25.4" y="10.16" length="middle"/>
+<pin name="P0.21" x="27.94" y="0" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0.24" x="27.94" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0.26" x="27.94" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0.18" x="-25.4" y="10.16" length="middle" swaplevel="1"/>
 <pin name="SWDCLK" x="-25.4" y="5.08" length="middle"/>
 <pin name="SWDIO" x="-25.4" y="0" length="middle"/>
-<pin name="P0.09" x="-25.4" y="-5.08" length="middle"/>
-<pin name="P0.08" x="-25.4" y="-10.16" length="middle"/>
-<pin name="P0.02" x="0" y="-22.86" length="middle" rot="R90"/>
-<pin name="P0.00" x="5.08" y="-22.86" length="middle" rot="R90"/>
-<pin name="P0.03" x="-5.08" y="-22.86" length="middle" rot="R90"/>
-<pin name="P0.05" x="-10.16" y="-22.86" length="middle" rot="R90"/>
-<pin name="P0.27" x="10.16" y="-22.86" length="middle" rot="R90"/>
+<pin name="P0.09" x="-25.4" y="-5.08" length="middle" swaplevel="1"/>
+<pin name="P0.08" x="-25.4" y="-10.16" length="middle" swaplevel="1"/>
+<pin name="P0.02" x="0" y="-22.86" length="middle" swaplevel="1" rot="R90"/>
+<pin name="P0.00" x="5.08" y="-22.86" length="middle" swaplevel="1" rot="R90"/>
+<pin name="P0.03" x="-5.08" y="-22.86" length="middle" swaplevel="1" rot="R90"/>
+<pin name="P0.05" x="-10.16" y="-22.86" length="middle" swaplevel="1" rot="R90"/>
+<pin name="P0.27" x="10.16" y="-22.86" length="middle" swaplevel="1" rot="R90"/>
 <text x="-5.08" y="0" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="ESP8266">
