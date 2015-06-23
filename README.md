@@ -18,3 +18,4 @@ Lio's Eagle Library
 * 1X10 10-pin connector (0.5 pitch FPC a.o.)
 * JST_2PIN 2-pin JST connector (1.27mm variant)
 * BD48XXX/BD49XXX Standard CMOS Voltage Detector (SSOP5)
+* IRF7319 HEXFET Dual N and P Channel Power MOSFET (SO-8)
