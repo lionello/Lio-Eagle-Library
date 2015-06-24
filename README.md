@@ -19,4 +19,5 @@ Lio's Eagle Library
 * JST_2PIN 2-pin JST connector (1.27mm variant)
 * BD48XXX/BD49XXX Standard CMOS Voltage Detector (SSOP5)
 * IRF7319 HEXFET Dual N and P Channel Power MOSFET (SO-8)
-* 74LVC1G175 Single D-Type Flip-Flop With Asynchronous Clear (SOT23-6 and SO70-6)
+* 74LVC1G175 Single D-Type Flip-Flop With Asynchronous Clear (SOT23-6 and SC70-6)
+* 74LVC2G14 Dual Schmitt-Trigger Inverter (SOT23-6 and SC70-6)
