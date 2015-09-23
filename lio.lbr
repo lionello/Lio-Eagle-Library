@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2194,18 +2194,22 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <text x="-10.16" y="7.62" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="USB-TYPE-C">
-<pin name="GND" x="-10.16" y="17.78" length="middle" direction="pwr"/>
-<pin name="SSTX1+" x="-10.16" y="12.7" length="middle"/>
-<pin name="SSTX1-" x="-10.16" y="7.62" length="middle"/>
-<pin name="VBUS" x="-10.16" y="2.54" length="middle" direction="sup"/>
-<pin name="CC1" x="-10.16" y="-2.54" length="middle"/>
-<pin name="D+" x="-10.16" y="-7.62" length="middle"/>
-<pin name="D-" x="-10.16" y="-12.7" length="middle"/>
-<pin name="SBU1" x="-10.16" y="-17.78" length="middle"/>
-<pin name="SSRX2-" x="-10.16" y="-22.86" length="middle"/>
-<pin name="SSRX2+" x="-10.16" y="-27.94" length="middle"/>
+<pin name="GND" x="-10.16" y="17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="SSTX+" x="-10.16" y="12.7" visible="pin" length="middle"/>
+<pin name="SSTX-" x="-10.16" y="7.62" visible="pin" length="middle"/>
+<pin name="VBUS" x="-10.16" y="2.54" visible="pin" length="middle" direction="sup"/>
+<pin name="CC1/VCONN" x="-10.16" y="-2.54" visible="pin" length="middle"/>
+<pin name="D+" x="-10.16" y="-7.62" visible="pin" length="middle"/>
+<pin name="D-" x="-10.16" y="-12.7" visible="pin" length="middle"/>
+<pin name="SBU" x="-10.16" y="-17.78" visible="pin" length="middle"/>
+<pin name="SSRX-" x="-10.16" y="-22.86" visible="pin" length="middle"/>
+<pin name="SSRX+" x="-10.16" y="-27.94" visible="pin" length="middle"/>
 <wire x1="-5.08" y1="20.32" x2="-5.08" y2="-30.48" width="0.254" layer="94"/>
-<pin name="SHIELD" x="0" y="-5.08" visible="off" length="middle" direction="nc" rot="R180"/>
+<pin name="SHIELD" x="15.24" y="15.24" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="CC2/VCONN" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-30.48" x2="-5.08" y2="-30.48" width="0.254" layer="94"/>
 </symbol>
 <symbol name="NRF51-01">
 <pin name="VCC" x="-17.78" y="15.24" length="middle" direction="pwr"/>
@@ -3290,16 +3294,17 @@ http://item.taobao.com/item.htm?spm=a1z09.2.9.34.wwrp4G&amp;id=44210242098&amp;_
 <devices>
 <device name="HYBRID" package="USB-TYPE-C-HYBRID">
 <connects>
-<connect gate="G$1" pin="CC1" pad="5 B5"/>
+<connect gate="G$1" pin="CC1/VCONN" pad="5"/>
+<connect gate="G$1" pin="CC2/VCONN" pad="B5"/>
 <connect gate="G$1" pin="D+" pad="6 B6"/>
 <connect gate="G$1" pin="D-" pad="7 B7"/>
 <connect gate="G$1" pin="GND" pad="1 12 B1 B12"/>
-<connect gate="G$1" pin="SBU1" pad="8 B8"/>
+<connect gate="G$1" pin="SBU" pad="8 B8"/>
 <connect gate="G$1" pin="SHIELD" pad="P$1 P$2 P$3 P$4 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35"/>
-<connect gate="G$1" pin="SSRX2+" pad="11 B11"/>
-<connect gate="G$1" pin="SSRX2-" pad="10 B10"/>
-<connect gate="G$1" pin="SSTX1+" pad="2 B2"/>
-<connect gate="G$1" pin="SSTX1-" pad="3 B3"/>
+<connect gate="G$1" pin="SSRX+" pad="11 B11"/>
+<connect gate="G$1" pin="SSRX-" pad="10 B10"/>
+<connect gate="G$1" pin="SSTX+" pad="2 B2"/>
+<connect gate="G$1" pin="SSTX-" pad="3 B3"/>
 <connect gate="G$1" pin="VBUS" pad="4 9 B4 B9"/>
 </connects>
 <technologies>
@@ -3308,16 +3313,17 @@ http://item.taobao.com/item.htm?spm=a1z09.2.9.34.wwrp4G&amp;id=44210242098&amp;_
 </device>
 <device name="" package="USB-TYPE-C-SMT">
 <connects>
-<connect gate="G$1" pin="CC1" pad="5 B5"/>
+<connect gate="G$1" pin="CC1/VCONN" pad="5"/>
+<connect gate="G$1" pin="CC2/VCONN" pad="B5"/>
 <connect gate="G$1" pin="D+" pad="6 B6"/>
 <connect gate="G$1" pin="D-" pad="7 B7"/>
 <connect gate="G$1" pin="GND" pad="1 12 B1 B12"/>
-<connect gate="G$1" pin="SBU1" pad="8 B8"/>
+<connect gate="G$1" pin="SBU" pad="8 B8"/>
 <connect gate="G$1" pin="SHIELD" pad="P$1 P$2 P$3 P$4 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35"/>
-<connect gate="G$1" pin="SSRX2+" pad="11 B11"/>
-<connect gate="G$1" pin="SSRX2-" pad="10 B10"/>
-<connect gate="G$1" pin="SSTX1+" pad="2 B2"/>
-<connect gate="G$1" pin="SSTX1-" pad="3 B3"/>
+<connect gate="G$1" pin="SSRX+" pad="11 B11"/>
+<connect gate="G$1" pin="SSRX-" pad="10 B10"/>
+<connect gate="G$1" pin="SSTX+" pad="2 B2"/>
+<connect gate="G$1" pin="SSTX-" pad="3 B3"/>
 <connect gate="G$1" pin="VBUS" pad="4 9 B4 B9"/>
 </connects>
 <technologies>
