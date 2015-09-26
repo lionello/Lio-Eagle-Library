@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2432,25 +2432,25 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 <pin name="2Y" x="10.16" y="-7.62" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
 </symbol>
 <symbol name="PTR5518">
-<wire x1="-20.32" y1="27.94" x2="2.54" y2="27.94" width="0.254" layer="94"/>
-<wire x1="2.54" y1="27.94" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="-20.32" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="27.94" x2="5.08" y2="27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="27.94" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="-20.32" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-12.7" x2="-20.32" y2="27.94" width="0.254" layer="94"/>
-<pin name="SWCLK" x="7.62" y="10.16" length="middle" rot="R180"/>
-<pin name="SWDIO" x="7.62" y="5.08" length="middle" rot="R180"/>
-<pin name="P0.12" x="7.62" y="0" length="middle" swaplevel="1" rot="R180"/>
-<pin name="P0.09" x="7.62" y="-5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="P0.08" x="7.62" y="-10.16" length="middle" swaplevel="1" rot="R180"/>
-<pin name="P0.25" x="-25.4" y="10.16" length="middle" swaplevel="1"/>
-<pin name="P0.26" x="-25.4" y="5.08" length="middle" swaplevel="1"/>
-<pin name="P0.27" x="-25.4" y="0" length="middle" swaplevel="1"/>
-<pin name="P0.28" x="-25.4" y="-5.08" length="middle" swaplevel="1"/>
-<pin name="P0.29" x="-25.4" y="-10.16" length="middle" swaplevel="1"/>
-<pin name="P0.17" x="7.62" y="15.24" length="middle" swaplevel="1" rot="R180"/>
-<pin name="P0.18" x="7.62" y="20.32" length="middle" swaplevel="1" rot="R180"/>
-<pin name="GND" x="-25.4" y="20.32" length="middle" direction="pwr"/>
-<pin name="VDD" x="-25.4" y="15.24" length="middle" direction="pwr"/>
-<pin name="P0.19" x="7.62" y="25.4" length="middle" swaplevel="1" rot="R180"/>
+<pin name="SWCLK" x="10.16" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="SWDIO" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="P0.12" x="10.16" y="0" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0.09" x="10.16" y="-5.08" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0.08" x="10.16" y="-10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0.25" x="-25.4" y="10.16" visible="pin" length="middle" swaplevel="1"/>
+<pin name="P0.26/AIN0" x="-25.4" y="5.08" visible="pin" length="middle" swaplevel="1"/>
+<pin name="P0.27/AIN1" x="-25.4" y="0" visible="pin" length="middle" swaplevel="1"/>
+<pin name="P0.28" x="-25.4" y="-5.08" visible="pin" length="middle" swaplevel="1"/>
+<pin name="P0.29" x="-25.4" y="-10.16" visible="pin" length="middle" swaplevel="1"/>
+<pin name="P0.17" x="10.16" y="15.24" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="P0.18" x="10.16" y="20.32" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GND" x="-25.4" y="20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="VDD" x="-25.4" y="15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="P0.19" x="10.16" y="25.4" visible="pin" length="middle" swaplevel="1" rot="R180"/>
 <text x="-17.78" y="25.4" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="ESP8266-03">
@@ -3676,8 +3676,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf"&gt;http://
 <connect gate="G$1" pin="P0.18" pad="P$7"/>
 <connect gate="G$1" pin="P0.19" pad="P$8"/>
 <connect gate="G$1" pin="P0.25" pad="P$11"/>
-<connect gate="G$1" pin="P0.26" pad="P$12"/>
-<connect gate="G$1" pin="P0.27" pad="P$13"/>
+<connect gate="G$1" pin="P0.26/AIN0" pad="P$12"/>
+<connect gate="G$1" pin="P0.27/AIN1" pad="P$13"/>
 <connect gate="G$1" pin="P0.28" pad="P$14"/>
 <connect gate="G$1" pin="P0.29" pad="P$15"/>
 <connect gate="G$1" pin="SWCLK" pad="P$5"/>
