@@ -22,3 +22,4 @@ Lio's Eagle Library
 * IRF7319 HEXFET Dual N and P Channel Power MOSFET (SO-8)
 * 74LVC1G175 Single D-Type Flip-Flop With Asynchronous Clear (SOT23-6 and SC70-6)
 * 74LVC2G14 Dual Schmitt-Trigger Inverter (SOT23-6 and SC70-6)
+* MHS122* SPDT switches
