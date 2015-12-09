@@ -23,3 +23,4 @@ Lio's Eagle Library
 * 74LVC1G175 Single D-Type Flip-Flop With Asynchronous Clear (SOT23-6 and SC70-6)
 * 74LVC2G14 Dual Schmitt-Trigger Inverter (SOT23-6 and SC70-6)
 * MHS122* SPDT switches
+* FDS9926A Dual N-Channel 2.5V MOSFET (SO-8)
