@@ -25,3 +25,4 @@ Lio's Eagle Library
 * MHS122* SPDT switches
 * FDS9926A Dual N-Channel 2.5V MOSFET (SO-8)
 * BQ5105xB High-Efficiency Qi v1.1-Compliant Wireless Power Receiver and Battery Charger (PVQFN)
+* LED 5730 (metric)
