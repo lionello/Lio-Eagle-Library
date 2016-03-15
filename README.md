@@ -24,3 +24,4 @@ Lio's Eagle Library
 * 74LVC2G14 Dual Schmitt-Trigger Inverter (SOT23-6 and SC70-6)
 * MHS122* SPDT switches
 * FDS9926A Dual N-Channel 2.5V MOSFET (SO-8)
+* BQ5105xB High-Efficiency Qi v1.1-Compliant Wireless Power Receiver and Battery Charger (PVQFN)
