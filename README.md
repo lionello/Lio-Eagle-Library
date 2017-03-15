@@ -26,3 +26,5 @@ Lio's Eagle Library
 * FDS9926A Dual N-Channel 2.5V MOSFET (SO-8)
 * BQ5105xB High-Efficiency Qi v1.1-Compliant Wireless Power Receiver and Battery Charger (PVQFN)
 * LED 5730 (metric)
+* MT3608 DC-DC converter module
+* WS2812F5 through-hole LED
