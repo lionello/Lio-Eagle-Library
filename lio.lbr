@@ -767,18 +767,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="-8" y1="-1" x2="-11" y2="-1" width="0.4064" layer="21"/>
 <wire x1="-11" y1="-1" x2="-11" y2="7" width="0.4064" layer="21"/>
 <wire x1="-7" y1="-7" x2="-7" y2="0" width="0.4064" layer="21"/>
-<polygon width="0.127" layer="42">
-<vertex x="-11.43" y="7.62"/>
-<vertex x="-6.35" y="7.62"/>
-<vertex x="-6.35" y="-7.62"/>
-<vertex x="-11.43" y="-7.62"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-11.43" y="7.62"/>
-<vertex x="-6.35" y="7.62"/>
-<vertex x="-6.35" y="-7.62"/>
-<vertex x="-11.43" y="-7.62"/>
-</polygon>
+<rectangle x1="-12.7" y1="-8.89" x2="-5.08" y2="8.89" layer="41"/>
+<rectangle x1="-12.7" y1="-8.89" x2="-5.08" y2="8.89" layer="42"/>
 </package>
 <package name="ESP-10">
 <wire x1="-7.1" y1="5" x2="7.1" y2="5" width="0.127" layer="21"/>
@@ -3760,6 +3750,29 @@ Created: 27.05.09</description>
 </technologies>
 </device>
 <device name="-08" package="ESP-08">
+<connects>
+<connect gate="G$1" pin="!REST" pad="REST"/>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0~" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO12~" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13~" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14~" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15~" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO2~" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4~" pad="GPIO5"/>
+<connect gate="G$1" pin="GPIO5~" pad="GPIO4"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-07-SWAP45" package="ESP-07">
 <connects>
 <connect gate="G$1" pin="!REST" pad="REST"/>
 <connect gate="G$1" pin="ADC" pad="ADC"/>
