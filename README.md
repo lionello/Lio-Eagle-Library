@@ -28,3 +28,4 @@ Lio's Eagle Library
 * LED 5730 (metric)
 * MT3608 DC-DC converter module
 * WS2812F5 through-hole LED
+* WS2812-MINI smart LED, mini form factor
